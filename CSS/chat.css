@@ -18,6 +18,16 @@
   padding-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  animation: 0.1s chatOpen ease-in-out;
+}
+
+@keyframes chatOpen {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: none;
+  }
 }
 
 .chat .date-divider {
